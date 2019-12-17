@@ -254,7 +254,7 @@ begin
  //Рисуем на экране главный холст
  HCanvas.Draw(0, 0, BackGroundDraw);
  //Прозрачность - 50%
- BGStep:=50;
+ BGStep:=30;
 end;
 
 procedure TGraphicEngine.Redraw;
